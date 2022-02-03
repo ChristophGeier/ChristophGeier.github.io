@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.btn }};
 }
 
 p {
@@ -36,7 +36,7 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: black;
 }
 
 a:hover,
@@ -120,14 +120,15 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.btn }};
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    color: black;
+    background-color: #{{ site.data.template.color.btn }};
+    transition: 0.3s;
 }
 
 .btn-xl:hover,
@@ -135,9 +136,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.btn }};
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #00000000;
 }
 
 .btn-xl:active,
@@ -224,13 +225,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: black;
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: black;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -266,10 +267,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
+    text-align: left;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url(img/header-bg.jpg);
+    
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -281,23 +285,27 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+    font-size: 55px;
+    font-style: bold;
+    
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    
 }
 
 @media(min-width:768px) {
@@ -310,17 +318,16 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
+        font-style: bold;
+        
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        font-size: 20px;
+        font-weight: 200;
+        
     }
 }
 
@@ -658,12 +665,19 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    /*background-image: url('{{ site.baseurl }}/img/map-image.png');*/
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
+    color: #fff;
+}
+
+section#team .section-heading {
+    color: #fff;
+}
+section#team p {
     color: #fff;
 }
 
@@ -864,4 +878,117 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+.headerLogo{
+    width: 200px;
+}
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hexagon {
+    transform: scale(1.5);
+    width: 100px;
+    height: 57.735px;
+    background: #{{ site.data.template.color.btn }};
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  #hexagon::before {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid #{{ site.data.template.color.btn }};
+  }
+  #hexagon::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid #{{ site.data.template.color.btn }};
+  }
+
+  .timeline-image-last{
+    width: 170px;
+
+    margin-left: -85px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+  }
+  .timeline-innnertext{
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .overwrite{
+    min-height: 0px!important;
+    margin-bottom: 100px!important;
+  }
+  #about{
+      padding-top: 0px;
+  }
+
+  /* Accordion */
+  .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.opened, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.opened:after {
+  content: "\2212";
+}
+
+.panel {
+  background-color: #eee;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordionContent{
+    padding: 20px;
+}
+.sectionAccordion{
+    margin: 40px 0px 40px 0px;
 }

@@ -2,8 +2,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Schreib uns</h2>
+                    <h3 class="section-subheading text-muted">Du hast eine Frage an uns?</h3>
                 </div>
             </div>
             <div class="row">
@@ -23,17 +23,23 @@
                                     <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
                                     <p class="help-block text-danger"></p>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
                                 <div class="control-group form-group">
                                     <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Nachricht abschicken</button>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mapouter">
+                                    <div class="gmap_canvas">
+                                        <iframe style="border-radius: 6px;"width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Stuttkarre&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                        </iframe><br>
+                                        <style>.mapouter{position:relative;text-align:right;height:700px;width:600px;}</style><a href="https://www.embedgooglemap.net">embed google maps html</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:700px;width:600px;}</style></div></div>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            <div class="col-lg-12 text-left">
+                                
                             </div>
                         </div>
                     </form>
