@@ -992,3 +992,10 @@ body {
 .sectionAccordion{
     margin: 40px 0px 40px 0px;
 }
+.lageplan{
+    height: 85vh;
+}
+.contentCenter{
+    display: flex;
+    justify-content: center;
+}

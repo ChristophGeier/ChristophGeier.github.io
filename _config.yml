@@ -1,3 +1,6 @@
+domain: christophgeier.github.io      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://christophgeier.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
+
 # Site settings
 title: Stuttkarre
 email: your-email@domain.com
@@ -54,4 +57,3 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
-theme: minima
