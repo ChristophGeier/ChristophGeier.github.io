@@ -198,7 +198,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: black;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -300,8 +300,14 @@ header .intro-text .intro-lead-in {
     
 }
 
+@media(max-width:768px) {
+    header .intro-text .intro-lead-in{ 
+        font-size: 30px;
+    }
+}
+
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: px;
     font-family: {{ site.data.template.font.primary }};
     font-size: 20px;
     font-weight: 200;
@@ -883,11 +889,14 @@ body {
 .headerLogo{
     width: 200px;
 }
-.headerNav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+@media(max-width:768px) {
+    .headerLogo{
+        padding-left: 10px;
+        padding-top: 10px;
+    }    
 }
+
 
 #hexagon {
     transform: scale(1.5);
@@ -998,4 +1007,11 @@ body {
 .contentCenter{
     display: flex;
     justify-content: center;
+}
+#mapDiv{
+    border-radius: 8px;
+}
+
+.btn-xl{
+    margin: 20px 0px 20px 0px;
 }
