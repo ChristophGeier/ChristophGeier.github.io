@@ -595,6 +595,8 @@ section h3.section-subheading {
     }
 }
 
+
+
 @media(min-width:992px) {
     .timeline>li {
         min-height: 150px;
@@ -933,12 +935,29 @@ body {
 
   .timeline-image-last{
     width: 170px;
-
     margin-left: -85px;
     left: 50%;
     position: absolute;
     text-align: center;
   }
+
+  @media(max-width:768px) {
+    .timeline-image-last{
+        width: 170px;
+        margin-left: 0px;
+        left: 0;
+        position: absolute;
+        text-align: center;
+    }
+    #hexagon {
+        transform: scale(0.8);
+    }
+    .overwrite{
+        transform: translateX(-46px);
+    }
+}
+
+
   .timeline-innnertext{
     margin-top: 40px;
     font-size: 18px;
@@ -1015,3 +1034,12 @@ body {
 .btn-xl{
     margin: 20px 0px 20px 0px;
 }
+
+::selection {
+    background: #FFFE00; /* WebKit/Blink Browsers */
+    color:black;
+  }
+  ::-moz-selection {
+    background: #FFFE00; /* Gecko Browsers */
+    color:black;
+  }

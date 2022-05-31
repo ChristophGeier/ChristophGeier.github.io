@@ -1,0 +1,128 @@
+/* embed google fonts locally*/
+
+/* kaushan+script */
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/google-fonts/fonts/kaushan-script/KaushanScript-Regular.ttf) format('ttf');
+  }
+
+/* Droidserif */
+
+/* latin */
+@font-face {
+    font-family: 'Droid Serif';
+    font-style: italic;
+    font-weight: 400;
+    src: url(/css/google-fonts/fonts/droid/PTSerif-Italic.ttf) format('ttf');
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Droid Serif';
+    font-style: italic;
+    font-weight: 700;
+    src: url(/css/google-fonts/fonts/droid/PTSerif-BoldItalic.ttf) format('ttf');
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Droid Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/google-fonts/fonts/droid/PTSerif-Regular.ttf) format('ttf');
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Droid Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/css/google-fonts/fonts/droid/PTSerif-Bold.ttf) format('ttf');
+  }
+  
+  /* Lato */
+
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: url(/css/google-fonts/fonts/lato/Lato-Italic.ttf) format('ttf');
+  }
+ 
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: url(/css/google-fonts/fonts/lato/Lato-BoldItalic.ttf) format('ttf');
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/google-fonts/fonts/lato/Lato-Regular.ttf) format('ttf');
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/css/google-fonts/fonts/lato/Lato-Bold.ttf) format('ttf');
+  }
+  
+  /* monserat*/
+
+  /* cyrillic-ext */
+  /* latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/google-fonts/fonts/montserrat/Montserrat-Regular.ttf) format('ttf');
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/css/google-fonts/fonts/montserrat/Montserrat-Bold.ttf) format('ttf');
+  }
+  
+  /* roboto slab */
+
+  /* latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    src: url(/css/google-fonts/fonts/roboto-slab/RobotoSlab-Thin.ttf) format('ttf');
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: url(/css/google-fonts/fonts/roboto-slab/RobotoSlab-Light.ttf) format('ttf');
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/google-fonts/fonts/roboto-slab/RobotoSlab-Regular.ttf) format('ttf');
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/css/google-fonts/fonts/roboto-slab/RobotoSlab-Bold.ttf) format('ttf');
+  }
+  
