@@ -1,0 +1,14 @@
+---
+title: Artikel
+subtitle: Kerner Mitteilungsblatt
+layout: default
+modal-id: 6
+date: 2016-10-01
+img: mitteilungsblatt-kernen.jpeg
+thumbnail: mitteilungsblatt-kernen.jpeg
+alt: image-alt
+project-date: Oktober 2016
+client: Neuigkeiten aus der Garage
+category: Benzingespräche
+description: Im Oktober 2016 veröffentlichte das Kerner Mitteilungsblatt nach einem Besuch des Bürgermeisters bei uns in der Werkstatt diesen Artikel über uns
+---

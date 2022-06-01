@@ -1,0 +1,14 @@
+---
+title: Stellplatz-Not
+subtitle: AutoBild Klassik 
+layout: default
+modal-id: 1
+date: 2018-09-01
+img: stuttkarre-thumbnail.jpg
+thumbnail: stuttkarre-thumbnail.jpg
+alt: image-alt
+project-date: Oktober 2018
+client: Neuigkeiten aus der Garage
+category: Benzingespräche
+description: Im August 2018 erschien ein Artikel über die Stuttkarre in der AutoBild Klassik zum Thema „Stellplatz-Not“
+---

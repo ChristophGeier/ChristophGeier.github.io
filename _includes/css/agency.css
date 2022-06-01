@@ -1079,3 +1079,8 @@ body {
         margin: 20px;
     }
 }
+
+@media (min-width: 1200px){
+    .col-lg-offset-2 {
+        margin-left: 0%!important;
+}}

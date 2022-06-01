@@ -1,0 +1,14 @@
+---
+title: Anna zu Besuch bei...
+subtitle: MotorKlassik 
+layout: default
+modal-id: 2
+date: 2018-05-01
+img: anna-zu-besuch-in-der-Stuttkarre.jpeg
+thumbnail: anna-zu-besuch-in-der-Stuttkarre.jpeg
+alt: image-alt
+project-date: Mai 2018
+client: Neuigkeiten aus der Garage
+category: Benzingespräche
+description: Im Mai 2018 veröffentlichte Anna Matuschek in der MotorKlassik Youngtimer einen Artikel über uns!
+---

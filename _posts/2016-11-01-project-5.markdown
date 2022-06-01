@@ -1,0 +1,14 @@
+---
+title: Artikel über unser Projekt
+subtitle: Lift – das Stuttgart Magazin
+layout: default
+modal-id: 5
+date: 2016-11-01
+img: stuttkarre-lift.jpeg
+thumbnail: stuttkarre-lift.jpeg
+alt: image-alt
+project-date: November 2016
+client: Neuigkeiten aus der Garage
+category: Benzingespräche
+description: Im November 2016 veröffentlichte „Lift – das Stuttgart Magazin“ diesen tollen Artikel über unser Projekt
+---

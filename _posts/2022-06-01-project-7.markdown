@@ -1,0 +1,14 @@
+---
+title: Coming soon
+subtitle: Ab dem 20.06.2022 sind wir in der SWR Landesschau zu sehen. <a style="text-decoration:underline;" href="https://www.regio-tv.de/mediathek/video/in-der-stuttkarre-koennen-liebhaber-alter-autos-gemeinsam-schrauben/">Zur Doku</a>
+layout: default
+modal-id: 7
+date: 2022-06-01
+img: stuttkarre-swr.png
+thumbnail: stuttkarre-swr.png
+alt: image-alt
+project-date: Juni 2022
+client: Neuigkeiten aus der Garage
+category: Benzingespräche
+description: Ab dem 20.06.2022 sind wir eine ganze Woche in der SWR Landesschau zu sehen. Hier anschauen <a style="text-decoration:underline;" href="https://www.regio-tv.de/mediathek/video/in-der-stuttkarre-koennen-liebhaber-alter-autos-gemeinsam-schrauben/">Zur Doku</a>
+---
