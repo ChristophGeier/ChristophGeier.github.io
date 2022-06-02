@@ -1,0 +1,14 @@
+---
+title: In der Stuttkarre können Liebhaber alter Autos gemeinsam schrauben
+subtitle: Regio-TV
+layout: default
+modal-id: 8
+date: 2021-12-01
+img: stuttkaree-regio-tv.png
+thumbnail: stuttkaree-regio-tv.png
+alt: image-alt
+project-date: Dezember 2021
+client: Neuigkeiten aus der Garage
+category: Benzingespräche
+description: Im Dezmber 2021 veröffentlichte „Regio-TV“ diesen tollen Artikel über unser Projekt <a style="text-decoration:underline;" href="https://www.regio-tv.de/mediathek/video/in-der-stuttkarre-koennen-liebhaber-alter-autos-gemeinsam-schrauben/">Zum Artikel</a>
+---

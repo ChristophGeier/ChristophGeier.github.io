@@ -1067,12 +1067,26 @@ body {
 }
 .row{
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.row-blog{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-row{
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 @media(max-width:768px) {
-    .row{
+    .contact-row{
         flex-direction: column;
     }
     .icon-wrapper {
