@@ -1046,9 +1046,15 @@ body {
 
 .page-content{
     margin-top: 80px;
-    padding: 20px;
+    padding: 80px 20% 80px 20%;
 }
 
+@media(max-width:768px) {
+    .page-content{
+        margin-top: 80px;
+        padding: 0px 20px 80px 20px;
+    }
+}
 .icon-wrapper {
     display: flex;
     margin: 20px 0px 20px 0px;
@@ -1083,6 +1089,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.row-team{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 @media(max-width:768px) {

@@ -4,8 +4,8 @@ subtitle: Ab dem 20.06.2022 sind wir in der SWR Landesschau zu sehen.
 layout: default
 modal-id: 7
 date: 2022-06-01
-img: stuttkarre-swr.png
-thumbnail: stuttkarre-swr.png
+img: stuttkaree-regio-tv.png
+thumbnail: stuttkaree-regio-tv.png
 alt: image-alt
 project-date: Juni 2022
 client: Neuigkeiten aus der Garage
